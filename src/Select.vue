@@ -296,9 +296,11 @@ const handleClickOutside = (event: MouseEvent) => {
 };
 
 const calculateMenuPosition = () => {
+  
+    console.log('container',container);
   if (container.value) {
     const rect = container.value.getBoundingClientRect();
-
+    console.log('container',container);
     return {
       left: `${rect.x}px`,
       top: `${rect.y + rect.height}px`,
