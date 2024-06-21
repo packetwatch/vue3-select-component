@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TotomInc/vue3-select-component.git"
+    "url": "https://github.com/packetwatch/vue3-select-component.git"
   },
   "keywords": [
     "vue3",
